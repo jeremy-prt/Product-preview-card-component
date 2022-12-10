@@ -81,12 +81,14 @@ ul {
   margin-top: 40px;
   width: 83%;
   justify-content: space-between;
+  align-items: center;
 }
 
 li {
   font-family: "Fraunces", Arial, Helvetica, sans-serif;
   font-size: 2.5em;
   color: var(--Dark_Cyan);
+  display: flex;
 }
 
 li span {
@@ -114,7 +116,7 @@ button img {
   width: 6%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 840px) {
   .wrapper .container.img img {
     display: none;
   }
